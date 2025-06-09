@@ -1,6 +1,3 @@
-Bien sûr ! Voici la version du README formatée en Markdown, prête à être copiée-collée dans ton fichier **README.md** sur GitHub. J’ai inclus les sections backend et frontend, avec un style clair et professionnel.
-
-````markdown
 # 🌍 VisitLomé - Application Touristique 📍
 
 Bienvenue dans **VisitLomé**, une application web dédiée à la découverte des sites touristiques de la ville de **Lomé**, capitale du **Togo**.

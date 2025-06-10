@@ -1,4 +1,4 @@
-# 🌍 VisitLomé - Application Touristique 📍
+# 🌍 LomeTour - Application Touristique 📍
 
 Bienvenue dans **VisitLomé**, une application web dédiée à la découverte des sites touristiques de la ville de **Lomé**, capitale du **Togo**.
 

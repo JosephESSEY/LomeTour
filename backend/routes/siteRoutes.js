@@ -2,8 +2,10 @@
 const express = require('express');
 const router = express.Router();
 const controller = require('../controllers/siteController');
+const upload = require('../middlewares/uploadMiddleware');
 
-router.post('/', controller.create);
+
+router.post('/', upload.single('image') ,controller.create);
 router.get('/', controller.getAll);
 router.get('/:id', controller.getById);
 router.put('/:id', controller.update);

@@ -1,12 +1,24 @@
 const express = require('express');
 const cors = require('cors');
-const helmet = require('helmet');
+// const helmet = require('helmet');
 require('dotenv').config();
+const path = require("path");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
-app.use(helmet());
+// app.use(helmet());
+
+
+app.use(cors({
+  origin: 'http://localhost:5173', // l'adresse de ton frontend React
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true,
+}));
+
+
+// Tes autres middlewares
+app.use('/uploads', express.static('public/uploads'));
+
 
 const authRoutes = require('./routes/authRoutes');
 const categorieRoutes = require('./routes/categorieRoutes');
@@ -24,7 +36,7 @@ app.use('/api/commentaires', commentaireRoutes);
 app.use('/api/reservations', reservationRoutes);
 
 
-app.use('/uploads', express.static('public/uploads'));
+
 
 
 

@@ -25,7 +25,7 @@ exports.createSite = async (data) => {
 
 exports.getAllSites = async () => {
   const result = await pool.query(`
-    SELECT s.*, c.nomcategorie
+    SELECT s.*, c.nom
     FROM sitetouristique s
     JOIN categories c ON s.idcategorie = c.idcategorie
     ORDER BY s.idsite DESC

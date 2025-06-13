@@ -1,29 +1,21 @@
-// src/middlewares/uploadMiddleware.js
-const multer = require('multer');
-const path = require('path');
+const multer = require("multer");
+const path = require("path");
 
-// Configuration du stockage local
+// Configuration du stockage
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, 'public/uploads/');
+    cb(null, "public/uploads"); // le dossier où tu stockes
   },
   filename: function (req, file, cb) {
-    const uniqueName = `${Date.now()}-${file.originalname}`;
-    cb(null, uniqueName);
+    const timestamp = Date.now();
+    const originalName = file.originalname.replace(/\s+/g, "_"); // remplace espaces par "_"
+    const extension = path.extname(originalName);
+    const basename = path.basename(originalName, extension);
+    cb(null, `${timestamp}-${basename}${extension}`);
   }
 });
 
-const upload = multer({
-  storage: storage,
-  limits: { fileSize: 5 * 1024 * 1024 }, // Limite de 5MB
-  fileFilter: (req, file, cb) => {
-    const allowed = /jpeg|jpg|png|webp/;
-    const ext = allowed.test(path.extname(file.originalname).toLowerCase());
-    const mime = allowed.test(file.mimetype);
-
-    if (ext && mime) cb(null, true);
-    else cb(new Error('Seules les images sont autorisées.'));
-  }
-});
+// Init de multer
+const upload = multer({ storage });
 
 module.exports = upload;

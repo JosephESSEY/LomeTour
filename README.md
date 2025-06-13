@@ -10,11 +10,11 @@ Ce projet a été réalisé dans le cadre d’un **projet académique**, en suiv
 
 ### 🎉 Page d'accueil
 
-![Page d’accueil LomeTour](assetsDoc/homeD.png)
+![Page d’accueil LomeTour](https://github.com/JosephESSEY/LomeTour/blob/main/assetsDocs/homeD.png)
 
 ### 📱 Responsive mobile
 
-![Version mobile LomeTour](assetsDoc/HomeD.png)
+![Version mobile LomeTour](https://github.com/JosephESSEY/LomeTour/blob/main/assetsDocs/HomeM.png)
 
 
 ## 🚀 Fonctionnalités

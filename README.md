@@ -6,6 +6,17 @@ Ce projet a été réalisé dans le cadre d’un **projet académique**, en suiv
 
 ---
 
+## 🖼️ Aperçu de l'application
+
+### 🎉 Page d'accueil
+
+![Page d’accueil LomeTour](assetsDoc/homeD.png)
+
+### 📱 Responsive mobile
+
+![Version mobile LomeTour](assetsDoc/HomeD.png)
+
+
 ## 🚀 Fonctionnalités
 
 - 🔐 Authentification via JWT (admin / utilisateur)

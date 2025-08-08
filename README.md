@@ -1,4 +1,4 @@
-# 🌍 LomeTour - Application Touristique 📍
+# LomeTour - Application Touristique
 
 Bienvenue dans **VisitLomé**, une application web dédiée à la découverte des sites touristiques de la ville de **Lomé**, capitale du **Togo**.
 
@@ -6,31 +6,31 @@ Ce projet a été réalisé dans le cadre d’un **projet académique**, en suiv
 
 ---
 
-## 🖼️ Aperçu de l'application
+##  Aperçu de l'application
 
-### 🎉 Page d'accueil
+### Page d'accueil
 
 ![Page d’accueil LomeTour](https://github.com/JosephESSEY/LomeTour/blob/main/assetsDocs/homeD.png)
 
-### 📱 Responsive mobile
+### Responsive mobile
 
 ![Version mobile LomeTour](https://github.com/JosephESSEY/LomeTour/blob/main/assetsDocs/HomeM.png)
 
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
-- 🔐 Authentification via JWT (admin / utilisateur)
-- 🗺️ Liste des sites touristiques à Lomé
-- 🧭 Détails avec coordonnées GPS (latitude, longitude)
-- 🏷️ Filtrage par catégorie (Plage, Culture, Nature, etc.)
-- 📸 Affichage d’images pour chaque lieu
-- 🔍 Recherche et suggestions en temps réel
-- ⚙️ API REST sécurisée
-- 🌐 Frontend réactif et moderne (Next.js / React.js)
+- Authentification via JWT (admin / utilisateur)
+- Liste des sites touristiques à Lomé
+- Détails avec coordonnées GPS (latitude, longitude)
+- Filtrage par catégorie (Plage, Culture, Nature, etc.)
+- Affichage d’images pour chaque lieu
+- Recherche et suggestions en temps réel
+- API REST sécurisée
+- Frontend réactif et moderne (Next.js / React.js)
 
 ---
 
-## 🧱 Stack Technique
+## Stack Technique
 
 | Côté         | Technologie                 |
 | ------------ | -------------------------- |
@@ -44,7 +44,7 @@ Ce projet a été réalisé dans le cadre d’un **projet académique**, en suiv
 
 ---
 
-## 🗂️ Structure du Projet
+## Structure du Projet
 
 ```bash
 visit-lome/
@@ -73,7 +73,7 @@ visit-lome/
 
 ---
 
-## ⚙️ Installation & Lancement
+## Installation & Lancement
 
 ### Backend
 
@@ -132,7 +132,7 @@ visit-lome/
 
 ---
 
-## 🛠️ Fonctionnalités détaillées
+## Fonctionnalités détaillées
 
 * **Authentification JWT** : Inscription, connexion, protection des routes, gestion des rôles.
 * **Gestion des sites touristiques** : CRUD complet (création, lecture, modification, suppression).
@@ -143,7 +143,7 @@ visit-lome/
 
 ---
 
-## 📚 Ressources et références
+## Ressources et références
 
 * [Node.js](https://nodejs.org/)
 * [Express.js](https://expressjs.com/)
@@ -156,20 +156,20 @@ visit-lome/
 
 ---
 
-## 🤝 Contribution
+## Contribution
 
 Contributions, suggestions ou questions sont les bienvenues !
 N’hésitez pas à ouvrir une issue ou soumettre une pull request.
 
 ---
 
-## 📄 Licence
+## Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d’informations.
 
 ---
 
 Merci d’avoir consulté **VisitLomé** !
-Explorez, découvrez et partagez la richesse touristique de Lomé ! 🌴🗺️
+Explorez, découvrez et partagez la richesse touristique de Lomé !
 
 ```
